@@ -1,0 +1,21 @@
+.shape {
+    position: absolute;
+    width: 315px;
+    height: 315px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.circle-right-shape {
+    right: 10%;
+    top: 5%;
+    border: 20px solid theme("colors.orange");
+    filter: drop-shadow(0px 0px 25px theme("colors.orange"));
+}
+
+.circle-left-shape {
+    left: 10%;
+    bottom: -15%;
+    border: 20px solid theme("colors.red");
+    filter: drop-shadow(0px 0px 25px theme("colors.red"));
+}

@@ -1,0 +1,23 @@
+{
+  "name": "react-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:frontend": "cd frontend && npm run start",
+    "start:backend": "cd frontend && npm run start",
+    "start:dev": "npm run start:frontend && npm run start:backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Er4ik/React-study.git"
+  },
+  "author": "Ervin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Er4ik/React-study/issues"
+  },
+  "homepage": "https://github.com/Er4ik/React-study#readme",
+  "dependencies": {}
+}
