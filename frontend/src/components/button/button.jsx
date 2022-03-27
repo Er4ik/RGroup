@@ -1,11 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Button = ({ 
     value, 
-    type = "", 
     color = "", 
     icon = "", 
     width = "auto",
+    handleClick = () => {},
+    navTo = "#",
 }) => {
     const colorsForButton = {
         gradient: {
@@ -20,8 +22,8 @@ const Button = ({
 
     return (
         <button
-        type={type}
         style={{width: width}} 
+        onClick={handleClick}
         className={
             `h-10 ${colorsForButton[color].background} ${colorsForButton[color].text} 
             filter drop-shadow-normal font-semibold text-m rounded-s
@@ -30,7 +32,7 @@ const Button = ({
             {icon ? (
                 <img className="w-4 h-4 mr-2 mt-px" src={icon} alt="icon"></img>
             ) : ""}
-            {value}
+            <NavLink to={`${navTo}`}>{value}</NavLink>
         </button>
     )
 }

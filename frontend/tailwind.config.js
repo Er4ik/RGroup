@@ -24,6 +24,7 @@ module.exports = {
             fontSize: {
                 label: "30px",
                 m: "16px",
+                error: "12px",
             },
         },
     },
