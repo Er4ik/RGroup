@@ -10,7 +10,8 @@ const App = () => {
   return (
     <div className="w-full h-screen">
       <Routes>
-        <Route exact path={routes.signIn} element={<SignIn />} />
+        <Route exact path={routes.root} element={<SignIn />} />
+        <Route path={routes.signIn} element={<SignIn />} />
         <Route path={routes.signUp} element={<SignUp />} />
         <Route path={routes.forgot} element={<Forgot />} />
         <Route path={routes.reset} element={<Reset />} />
