@@ -26,11 +26,11 @@ const Button = ({
         onClick={handleClick}
         className={
             `h-10 ${colorsForButton[color].background} ${colorsForButton[color].text} 
-            filter drop-shadow-normal font-semibold text-m rounded-s
+            filter drop-shadow-normal font-normal text-m rounded-s
             flex items-center justify-center`
         }>
             {icon ? (
-                <img className="w-4 h-4 mr-2 mt-px" src={icon} alt="icon"></img>
+                <img className="w-4 h-4 mr-2" src={icon} alt="icon"></img>
             ) : ""}
             <NavLink to={`${navTo}`}>{value}</NavLink>
         </button>

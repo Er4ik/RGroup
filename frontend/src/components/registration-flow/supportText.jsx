@@ -8,8 +8,8 @@ const SupportText = ({
     handleClick = () => {},
 }) => {
     return (
-        <p className="text-blue text-m font-semibold">{mainText}
-            <NavLink className="text-red ml-2" onClick={handleClick} to={`${navTo}`}>{textLink}</NavLink>
+        <p className="text-blue text-s font-normal">{mainText}
+            <NavLink className="text-red font-semibold ml-2" onClick={handleClick} to={`${navTo}`}>{textLink}</NavLink>
         </p>
     )
 }

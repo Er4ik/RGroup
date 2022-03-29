@@ -69,7 +69,7 @@ const SignUpForm = () => {
                 flagSentForm ? (
                     <SentForm 
                         mainText={"The account has been created"}
-                        secondText={"Please check your email and follow the link we have sent you to confirm an email"}
+                        secondText={"Please check your email and follow the link we have sent you to confirm an email."}
                         valueButton={"Sign in"}
                         colorButton={"gradient"}
                         navTo={routes.signIn}

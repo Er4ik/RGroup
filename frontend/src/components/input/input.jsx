@@ -7,7 +7,7 @@ const Input = ({ name, value, placeholder, width, onChange, error }) => {
             name={name}
             value={value}
             style={{width: width ? width : "100%"}} 
-            className={`h-10 p-5 ${error ? "border-red border-2" : ""} outline-none text-blue filter shadow-inner2 font-semibold text-m rounded-s`} 
+            className={`h-10 p-5 ${error ? "border-red border-2" : ""} outline-none text-blue filter shadow-inner2 font-normal text-m rounded-s`} 
             placeholder={placeholder}
             onChange={onChange}>
             </input>

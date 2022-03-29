@@ -7,7 +7,7 @@ const SignIn = () => {
     return (
         <RegistrationFlow 
             form={<SignInForm />} 
-            text={<>Welcome back<br/>to Food Find</>} 
+            text={<>Welcome back<br/>to RGroup</>} 
             shape={"circle-orange"}
         />
     )

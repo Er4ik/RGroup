@@ -1,9 +1,6 @@
 module.exports = {
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
-        fontFamily: {
-            body: ['"Mukta"'],
-        },
         colors: {
             white: "#FFFFFF",
             red: "#F0544F",
@@ -24,6 +21,7 @@ module.exports = {
             fontSize: {
                 label: "30px",
                 m: "16px",
+                s: "14px",
                 error: "12px",
             },
         },
